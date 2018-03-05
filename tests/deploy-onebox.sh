@@ -3,7 +3,7 @@
 
 set -eo pipefail
 
-# Determine the appropriate github branch to clone
+# Determine the appropriate github branch to clone.
 get_branch()
 {
     local branchInfo=
