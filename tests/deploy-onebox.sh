@@ -63,6 +63,8 @@ echo "ONEBOX_PARAMS=$ONEBOX_PARAMS"
 echo "CONTAINER_NAME=$CONTAINER_NAME"
 echo
 
+env
+
 # keep alive
 bash ./tests/keep-alive.sh &
 
